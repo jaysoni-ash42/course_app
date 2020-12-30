@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       android:text="We'd love to hear from you"
+       android:fontFamily="@font/varela_round"
+       android:textColor="@android:color/black"
+       android:textSize="24sp"
+       android:textAlignment="center"
+       android:padding="10dp"
+       android:id="@+id/textview"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview"
+        android:text="For all kind of queries related to course,zenclass and other platform related information"
+        android:textAlignment="center"
+        android:fontFamily="@font/varela_round"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:background="#d3d3d3"
+        android:id="@+id/textview2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview2"
+        android:text="Email"
+        android:fontFamily="@font/varela_round"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        app:drawableStartCompat="@drawable/ic_baseline_email_24"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/email"
+        android:padding="10dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview2"
+        android:padding="10dp"
+        android:src="@drawable/ic_baseline_arrow_forward_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email"
+        android:text="You will get a reply back from us within 48 hours"
+        android:textAlignment="center"
+        android:fontFamily="@font/varela_round"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:background="#d3d3d3"
+        android:id="@+id/textview3"
+        android:padding="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview3"
+        android:text="Chat with us"
+        android:fontFamily="@font/varela_round"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        app:drawableStartCompat="@drawable/ic_baseline_chat_24"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/chatwithus"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview3"
+        android:padding="10dp"
+        android:text="(9am - 9pm)"
+        android:fontFamily="@font/varela_round"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chatwithus"
+        android:text="Follow us"
+        android:fontFamily="@font/varela_round"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        app:drawableStartCompat="@drawable/ic_baseline_share_24"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/follow_us"
+        android:padding="10dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/chatwithus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/visit_us"
+        app:layout_constraintStart_toEndOf="@id/follow_us"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:id="@+id/linear_layout">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:src="@drawable/facebook"
+            android:scaleType="fitXY"
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:src="@drawable/instagram"
+            android:scaleType="fitXY"
+            android:layout_marginStart="5dp"
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:src="@drawable/telegram"
+            android:scaleType="fitXY"
+            android:layout_marginStart="5dp"
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:src="@drawable/twitter"
+            android:scaleType="fitXY"
+            android:layout_marginStart="5dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/follow_us"
+        android:text="Visit us"
+        android:fontFamily="@font/varela_round"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:id="@+id/visit_us"
+        />
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

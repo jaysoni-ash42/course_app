@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1059688503500",
+    "firebase_url": "https://300203-3bd8e.firebaseio.com",
+    "project_id": "youtube-300203",
+    "storage_bucket": "youtube-300203.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059688503500:android:b5d4090c1e17e98682ca69",
+        "android_client_info": {
+          "package_name": "com.example.navigationdrawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059688503500-f1ia2joa6hi2q85fgd455vpjb747gung.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJO6MZf7qaqhFaV8TVEtYBuJCwzqW2LZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059688503500-f1ia2joa6hi2q85fgd455vpjb747gung.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
